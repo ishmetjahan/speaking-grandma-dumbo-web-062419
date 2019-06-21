@@ -15,9 +15,9 @@
 def speak_to_grandma (str)
  if str == "I LOVE YOU GRANDMA!"
    return "I LOVE YOU TOO PUMPKIN!"
-   elsif str == str.downcase || str== str.capitalize
+   elsif str == str.upcase || str== str.capitalize
    return "HUH?! SPEAK UP, SONNY!"
- else
+ else 
    return "NO, NOT SINCE 1938!"
  end
  
