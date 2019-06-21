@@ -16,4 +16,5 @@ def speak_to_grandma (str)
   if str== str.upcase
     "NO, NOT SINCE 1938!"
   end
+  if str== str.dowcase || str== str.
 end
